@@ -60,4 +60,8 @@ jobs
 less nohup.out 
 ```
 
-!(Demo!)(https://github.com/SalShk/REGENIE-GENE_Association_Analysis_Results_UKB_450K/issues/1#issue-1114191185)
+
+
+https://user-images.githubusercontent.com/64026769/151032361-f35d1dda-d5f7-4247-a127-b5d1b6671996.mp4
+
+
