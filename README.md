@@ -27,6 +27,7 @@ Briefly, when run using the instructions below, this code will achieve the follo
 * Generate Manhattan plots for MAF cut-off filter (MAF<0.1%, and MAF<0.01%)
 
 __Before start you need to have a .txt file for your GWAS SNPs detailes (first column "Chr"; second column "Position (b37)").__
+
 __In GWAS SNPs list use X for chromosome 23, this is required for the script to work.__
 
 __Please run this code from one of your own working directories by following the quick start instructions below.__
@@ -59,7 +60,13 @@ jobs
 ```
 less nohup.out 
 ```
-
+**6. See the Q-Q and Manhattan plots
+```
+module load ImageMagick/7.0.10-1-GCCcore-9.3.0
+```
+```
+display <file_name>.png
+```
 
 
 https://user-images.githubusercontent.com/64026769/151032361-f35d1dda-d5f7-4247-a127-b5d1b6671996.mp4
