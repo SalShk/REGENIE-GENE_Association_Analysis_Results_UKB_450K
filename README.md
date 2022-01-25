@@ -1,3 +1,16 @@
+# REGENIE Association Analysis Results UKB 450K (Gene Burden & Single Variant)
+
+Created by Saleh Shekari (ss1173@exeter.ac.uk), Amy Dawes (a.dawes@exeter.ac.uk) and Gareth Hawkes (g.hawkes2@exeter.ac.uk)
+
+Please contact [Saleh](mailto:ss1173@exeter.ac.uk?subject=[GitHub]%20SAIGE-GENE%20Association%20Analysis%20Summery) to report bugs or suggest and features. Pull requests welcome and encouraged.
+
+## Contents
+- [Introduction](#Introduction)
+- [Quick-start](#Quick-start-instructions)
+
+
+
+
 ## Introduction
 Briefly, when run using the instructions below, this code will achieve the following from UKB-450K-WES REGENIE-GENE trait association results files as input files:
 * For each variant class (e.g. LoF, Missense etc.) extract each genes transcript burden across all chromosomes (1-24) from REGENIE-GENE association output.
