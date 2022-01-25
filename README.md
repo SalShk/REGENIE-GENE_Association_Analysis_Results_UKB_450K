@@ -48,6 +48,7 @@ cd /full/path/to/<your_working_directory>
 ```
 nohup bash /slade/projects/UKBB/UKBB_general_working_area/exWAS_script_Sal_Amy_Gareth/exWAS_UKB_450K_REGENIE_summary_script.sh </full/path/to/<directory_you_Want_to_Archive> <your_Interest_Trait> <Date_REGENIE_File_Made> </full/path/to/GWAS_SNPs_List> &
 ```
+* Double Enter
 
 **4. Check job status**
 ```
