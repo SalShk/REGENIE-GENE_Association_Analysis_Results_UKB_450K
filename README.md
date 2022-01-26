@@ -1,4 +1,4 @@
-# REGENIE Association (Gene Burden & Single Variant) Analysis Results Pipeline - Built for UKB 450K Exomes 
+# REGENIE Association (Gene Burden & Single Variant) Analysis Results Pipeline - for UKB 450K Exomes 
 
 Created by Saleh Shekari (ss1173@exeter.ac.uk), Amy Dawes (a.dawes@exeter.ac.uk) and Gareth Hawkes (g.hawkes2@exeter.ac.uk)
 
