@@ -67,8 +67,11 @@ module load ImageMagick/7.0.10-1-GCCcore-9.3.0
 ```
 display <file_name>.png
 ```
+**6. Path to script on Slade
+```
+/slade/projects/UKBB/UKBB_general_working_area/exWAS_script_Sal_Amy_Gareth/
 
-
+```
 https://user-images.githubusercontent.com/64026769/151032361-f35d1dda-d5f7-4247-a127-b5d1b6671996.mp4
 
 
