@@ -12,11 +12,15 @@ Please contact [Saleh](mailto:ss1173@exeter.ac.uk?subject=[GitHub]%20SAIGE-GENE%
 
 
 ## Introduction
-Briefly, when run using the instructions below, this code will achieve the following from UKB-450K-WES REGENIE-GENE trait association results files as input files:
+Briefly, when run using the instructions below, this code will achieve the following from UKB-450K-WES REGENIE GENE-TRANSCRIPT burden association results files 
+as input files:
+
 * For each variant class (e.g. LoF, Missense etc.) extract each genes transcript burden across all chromosomes (1-24) from REGENIE-GENE association output.
+    # New update - additional variant classes have been added to the regenie pipeline. Please check the list found on GOCT Teams channel, in the WIKI page. 
+
 * Generate summary tables for each variant class and MAF cut-off filter (MAF<0.1%, and MAF<0.01%).
 * Generate master tables for each MAF cut-off filter across all variant classed combined.
-* Generate top hits (log10P=5) tables for each MAF cut-off filter with variant class labelled.
+    # Update: Generate top hits (log10P=4) tables for each MAF cut-off filter with variant class labelled.
 * Generate top hits tables for each variant class with MAF<0.1%.
 * Generate 'test-failed' directory where there were errors in running the burden/single variant test, with list of gene/transcript/masks which failed.
 * Generate a master file for all single variant association results.
@@ -45,9 +49,11 @@ cd /full/path/to/<your_working_directory>
 
 **3. Submit script to Slade job nodes**
 * Please make sure in this step that you input the full/absolute filepath to your working directory, as this is required for the script to work.
-* Check the trait name and Date match exactly to those given in the regenie output files 
+* Check the trait name, type, and Date match exactly to those given in the regenie output files 
+* Note: the options for trait type should be as follows: "raw" for raw continuous traits, "raw_sin" for continuous inverse normalise traits, and "bin" for binary traits. 
+
 ```
-nohup bash /slade/projects/UKBB/UKBB_general_working_area/exWAS_script_Sal_Amy_Gareth/exWAS_UKB_450K_REGENIE_summary_script.sh </full/path/to/<directory_you_Want_to_Archive> <your_Interest_Trait> <Date_REGENIE_File_Made> </full/path/to/GWAS_SNPs_List> &
+nohup bash /slade/projects/UKBB/UKBB_general_working_area/exWAS_script_Sal_Amy_Gareth/exWAS_UKB_450K_REGENIE_summary_script.sh </full/path/to/<directory_you_Want_to_Archive> <trait_type> <your_Interest_Trait> <Date_REGENIE_File_Made> </full/path/to/GWAS_SNPs_List> &
 ```
 * Double Enter
 
