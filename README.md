@@ -1,6 +1,6 @@
 # REGENIE Association (Gene Burden & Single Variant) Analysis Results Pipeline - for UKB 450K Exomes 
 
-Created by Saleh Shekari (ss1173@exeter.ac.uk), Amy Dawes (a.dawes@exeter.ac.uk) and Gareth Hawkes (g.hawkes2@exeter.ac.uk)
+Created by Saleh Shekari (ss1173@exeter.ac.uk)
 
 Please contact [Saleh](mailto:ss1173@exeter.ac.uk?subject=[GitHub]%20SAIGE-GENE%20Association%20Analysis%20Summery) to report bugs or suggest and features. Pull requests welcome and encouraged.
 
